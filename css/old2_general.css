@@ -30,10 +30,7 @@ Paragraph default: 1.6
 - shades #cf711f
 #999
 - accents
-- grays 
-#767676
-#888
-#555
+- grays #555
   color:#333;
   #6f6f6f lightest gray
 
@@ -43,8 +40,6 @@ unsplash.com
 icons
 
 --- 05 shadows
- box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
- background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
 --- 06 border radius
 default: border-radius: 9px;
 medium: border-radius: 11px;
@@ -90,13 +85,7 @@ body {
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
-
-  /* margin-bottom: 9.6rem; */
 }
-
-/* .grid:last-child {
-  margin-bottom: 0;
-} */
 
 .grid:not(:last-child) {
   margin-bottom: 9.6rem;
@@ -111,14 +100,10 @@ body {
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
-.grid--5-cols {
-  grid-template-columns: repeat(5, 1fr);
-}
 
 .grid--center-v {
   align-items: center;
 }
-
 .heading-primary,
 .heading-secondary {
   font-weight: 700;
