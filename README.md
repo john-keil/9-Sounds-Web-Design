@@ -83,7 +83,9 @@ Get details from course attendees
 
 use photos to give a sense of calm and well being.
 
-### Section with pricing
+### Section with pricing and features
+
+#### cards
 
 One to One Online
 
@@ -107,6 +109,16 @@ between 09:00 and 17:00 GMT
 Designated facilities
 
 btn - Start Relaxing
+
+#### features
+
+experienced and empathetic guidance drawing you into self centring and calmness
+
+online courses that endeavour to remove the inherent barriers of technology
+
+climate conscious without being directive; giving you the choice
+
+recordings which allow you to revisit and absorb
 
 ### Contact information
 
