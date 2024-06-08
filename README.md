@@ -12,7 +12,6 @@ Primary Colour: #9f9aeb - titan white
 Secondary Colour: #3bed3c - mint green
 Grays:#adadad
 
-
 ## 9 Sounds Website Content
 
 ### Summary
@@ -46,7 +45,7 @@ The final and the topmost Chakra that sits outside of the body is The Crown Chak
 The violet color indicates of this chakra represents your presence of being beyond the physical connections.
 Crown Chakra is the Centre where all the lower level Chakras integrate with their respective traits. It is said that once you master your lower level chakras, you are more likely to balance your Crown as well
 
-### As Featured in
+### ### Section with logos of featured in publications [see images]
 
 A list of sites that have mentioned your service
 https://meditationandbeyond.co.uk/product/course-the-art-of-meditation-the-art-of-living-mothly
@@ -61,29 +60,53 @@ One to One online offering using whatsapp or zoom. ( include their icon here)
 
 The venues, location, link to hotel and available dates and times
 
-### One to One Real Time
+### Events
 
-Description;
-Dates
-Price
-Delivery
+#### One to One and group
 
-### Venues
+Number, type rating
+
+##### Venues
 
 Description of Venue
 Price
 Group Size
 Number of sessions
 
-### Photo gallery
+### testimonials and gallery
 
-use photos to give a sense of calm and well being.
-
-### Customer testimonials
+#### Customer testimonials
 
 Get details from course attendees
 
-### Section with logos of featured publications [see images]
+#### Photo gallery
+
+use photos to give a sense of calm and well being.
+
+### Section with pricing
+
+One to One Online
+
+€ 100.00
+per session
+
+discussion & plan
+1 hour per session
+between 09:00 and 17:00 GMT
+Zoom or Whatsapp
+
+btn - Start Relaxing
+
+Group Face to Face
+€ 200.00
+per session
+
+discussion & plan
+6 hour per session
+between 09:00 and 17:00 GMT
+Designated facilities
+
+btn - Start Relaxing
 
 ### Contact information
 
