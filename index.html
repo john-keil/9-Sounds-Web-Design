@@ -24,11 +24,20 @@
       src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
     ></script>
 
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+
+    <script defer src="./js/script.js"></script>
+
     <title>9 Sounds</title>
   </head>
   <body>
     <header class="header">
-      <img src="./img/brand_2.jpg" alt="9 Sounds logo" class="logo" />
+      <a href="#">
+        <img src="./img/brand_2.jpg" class="icon-brand" alt="9 Sounds logo" />
+      </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="#how">How it Works</a></li>
@@ -54,8 +63,10 @@
             group meditation sessions. You can be led by an instructor and/or
             you can create your own sounds to meditate by.
           </p>
-          <a href="#" class="btn btn--full margin-right-sm">Start Relaxing</a>
-          <a href="#" class="btn btn--outline">Learn more &darr;</a>
+          <a href="#cta" class="btn btn--full margin-right-sm"
+            >Start Relaxing</a
+          >
+          <a href="#how" class="btn btn--outline">Learn more &darr;</a>
           <div class="delivered-meals">
             <div class="delivered-imgs">
               <img src="./img/customers/customer-1.jpg" alt="Customer Photo" />
@@ -461,7 +472,7 @@
             </li>
           </ul>
           <div class="plan-sign-up">
-            <a href="#" class="btn btn--full">Start Relaxing</a>
+            <a href="#cta" class="btn btn--full">Start Relaxing</a>
           </div>
         </div>
 
@@ -490,7 +501,7 @@
             </li>
           </ul>
           <div class="plan-sign-up">
-            <a href="#" class="btn btn--full">Start Relaxing</a>
+            <a href="#cta" class="btn btn--full">Start Relaxing</a>
           </div>
         </div>
       </div>
@@ -625,7 +636,8 @@
           </ul>
 
           <p class="copyright">
-            Copyright &copy; 2027 by 9 Sounds, Inc. All rights reserved.
+            Copyright &copy; <span class="year">2027</span> by 9 Sounds, Inc.
+            All rights reserved.
           </p>
         </div>
         <div class="address-col">

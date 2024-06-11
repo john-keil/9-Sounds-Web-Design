@@ -67,7 +67,6 @@ medium: border-radius: 11px;
 html {
   /*percentage of users browser font size setting 10/16 = 0.625 = 62.5%*/
   font-size: 62.5%;
-  overflow-x: hidden;
 }
 
 body {
@@ -75,8 +74,6 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
-  /* only works if nothing absolutely positioned in terms of body */
-  overflow-x: hidden;
 }
 
 /*******************************/
@@ -114,9 +111,9 @@ body {
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
-/* .grid--5-cols {
+.grid--5-cols {
   grid-template-columns: repeat(5, 1fr);
-} */
+}
 
 .grid--center-v {
   align-items: center;
