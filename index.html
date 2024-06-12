@@ -49,7 +49,9 @@
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="#how">How it Works</a></li>
           <li><a class="main-nav-link" href="#events">Events</a></li>
-          <li><a class="main-nav-link" href="#testimonials">Testimonial</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
           <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
           <li><a class="main-nav-link nav-cta" href="#cta">Reach Out</a></li>
         </ul>
@@ -76,12 +78,31 @@
           <a href="#how" class="btn btn--outline">Learn more &darr;</a>
           <div class="delivered-meals">
             <div class="delivered-imgs">
-              <img src="./img/customers/customer-1.jpg" alt="Customer Photo" />
-              <img src="./img/customers/customer-2.jpg" alt="Customer Photo" />
-              <img src="./img/customers/customer-3.jpg" alt="Customer Photo" />
-              <img src="./img/customers/customer-4.jpg" alt="Customer Photo" />
-              <img src="./img/customers/customer-5.jpg" alt="Customer Photo" />
-              <img src="./img/customers/customer-6.jpg" alt="Customer Photo" />
+              <img
+                src="./img/customers/customer-1.webp"
+                alt="Customer Photo - head shot of young bearded man with light hair. He is smiling. He is wearing a white shirt with a light green tie. He has a light grey jacket of which you can only see the collar and part of the shoulder."
+              />
+              <img
+                src="./img/customers/customer-2.webp"
+                alt="Customer Photo - head shot of smiling young woman. Her hair is dark brown with some lighter streaks. She is smiling. Her eyes reflect the flash of the camera lighting."
+              />
+              <img
+                src="./img/customers/customer-3.webp"
+                alt="Customer Photo -
+              head shot of young woman with braided dark brown hair. The braids are parted to the right of her head. She has a bright friendly smile. An ear ring glints brightly in her right ear."
+              />
+              <img
+                src="./img/customers/customer-4.webp"
+                alt="Customer Photo - head and shoulders of a young man with a friendly smile. His hair is short at the sides and is swept up on top. He has a light beard. His eyes shine with the reflected light of the camera flash."
+              />
+              <img
+                src="./img/customers/customer-5.webp"
+                alt="Customer Photo - a head shot of a smiling young woman. She has bright red lipstick which compliments her red top and frames her bright teeth and gums. Her hair is very dark with a hint of purple colouring;it is blown back which shows her face. Tha background is blurred."
+              />
+              <img
+                src="./img/customers/customer-6.webp"
+                alt="Customer Photo - a head shot of smiling bespectacled young man. His hair is short and very dark. He is wearing a black crewe necked tee shirt."
+              />
             </div>
             <p class="delivered-text">
               <span>15+</span> courses and sessions delivered last year!
@@ -89,11 +110,20 @@
           </div>
         </div>
         <div class="hero-img-box">
-          <img
-            src="./img/hero_combined_2.png"
+          <picture>
+            <source srcset="./img/hero_combined_2.webp" type="image/webp" />
+            <source srcset="./img/hero_combined_2.png" type="image/webp" />
+            <img
+              src="img/hero_combined_2.png"
+              class="hero-img"
+              alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+            />
+          </picture>
+          <!-- <img
+            src="./img/hero_combined_2.webp"
             class="hero-img"
             alt="Colin playing the gongs, bowls and drum."
-          />
+          /> -->
         </div>
       </div>
     </section>
@@ -141,9 +171,9 @@
         </div>
         <div class="step-img-box">
           <img
-            src="./img/How it Works/individual online.jpg"
+            src="./img/How it Works/individual online.webp"
             class="step-img"
-            alt="iphone app preferences selection screen"
+            alt="A woman sitting on a cushion with her hands placed together raised to her forehead. She is facing another woman; you can only see her left side; she is sitting on a white cushion. Both are in the living area of a home."
           />
         </div>
 
@@ -151,9 +181,9 @@
 
         <div class="step-img-box">
           <img
-            src="./img/How it Works/individual face to face.jpg"
+            src="./img/How it Works/individual face to face.webp"
             class="step-img"
-            alt="iphone app preferences selection screen"
+            alt="This is an image of a partially shown woman playing a a gong. You can see the reflection of her face in the gong. There are two white drum 'sticks' which are also reflected in the gong. The lighting is shades of orange."
           />
         </div>
         <div class="step-text-box">
@@ -182,9 +212,9 @@
         </div>
         <div class="step-img-box">
           <img
-            src="./img/How it Works/group online.jpg"
+            src="./img/How it Works/group online.webp"
             class="step-img"
-            alt="iphone app preferences selection screen"
+            alt="This is a black and white photograph of a young woman sitting in the park. She is laughing, she has one hand on her head and the other holds a mobile phone. She is focused on the phone; the content of which she finds amusing."
           />
         </div>
 
@@ -192,9 +222,9 @@
 
         <div class="step-img-box">
           <img
-            src="./img/How it Works/group face to face1.jpg"
+            src="./img/How it Works/group face to face.webp"
             class="step-img"
-            alt="iphone app preferences selection screen"
+            alt="This photograph is of as a silhouetted group jumping in the air. They all have a different pose. The sense is they are jumping for joy. The foreground is black with a graduated sky; lighter at the bottom and darker towards the top right."
           />
         </div>
         <div class="step-text-box">
@@ -397,51 +427,87 @@
       </div>
       <div class="gallery">
         <figure class="gallery-item">
-          <img src="./img/gallery/gallery_1.jpg" alt="Photo of food" />
+          <img
+            src="./img/gallery/gallery_1.jpg"
+            alt="A woman sitting in a lotus position striking a metal bowl."
+          />
           <!-- <figcaption>Caption</figcaption> -->
         </figure>
         <figure class="gallery-item">
-          <img src="./img/gallery/gallery_2.jpg" alt="Photo of food" />
+          <img
+            src="./img/gallery/gallery_2.jpg"
+            alt="Woman sitting crossed legged with her palms together placed under her chin"
+          />
           <!-- <figcaption>Caption</figcaption> -->
         </figure>
         <figure class="gallery-item">
-          <img src="./img/gallery/gallery_3.jpg" alt="Photo of food" />
+          <img
+            src="./img/gallery/gallery_3.jpg"
+            alt="A white rounded arched hall way with steps in the foreground"
+          />
           <!-- <figcaption>Caption</figcaption> -->
         </figure>
         <figure class="gallery-item">
-          <img src="./img/gallery/gallery_4.jpg" alt="Photo of food" />
+          <img
+            src="./img/gallery/gallery_4.jpg"
+            alt="An open book and a mug with a drink in it ona wooden ledge with blurred background of water reflecting a sun beam"
+          />
           <!-- <figcaption>Caption</figcaption> -->
         </figure>
         <figure class="gallery-item">
-          <img src="./img/gallery/gallery_5.jpg" alt="Photo of food" />
+          <img
+            src="./img/gallery/gallery_5.jpg"
+            alt="A woman facing away from the viewer, sitting on a wooden bench; she is looking out onto a dark blue sea with a marginally lighter blue sky."
+          />
           <!-- <figcaption>Caption</figcaption> -->
         </figure>
         <figure class="gallery-item">
-          <img src="./img/gallery/gallery_6.jpg" alt="Photo of food" />
+          <img
+            src="./img/gallery/gallery_6.jpg"
+            alt="A man sitting on top of a looking out across lochs and mountains in the distance. "
+          />
           <!-- <figcaption>Caption</figcaption> -->
         </figure>
         <figure class="gallery-item">
-          <img src="./img/gallery/gallery_7.jpg" alt="Photo of food" />
+          <img
+            src="./img/gallery/gallery_7.jpg"
+            alt="Looking down on a barefooted woman with rolled jean leggings as she paddles in the rocky shallows. Her boots are in the foreground. You see her from the tops of her legs down."
+          />
           <!-- <figcaption>Caption</figcaption> -->
         </figure>
         <figure class="gallery-item">
-          <img src="./img/gallery/gallery_8.jpg" alt="Photo of food" />
+          <img
+            src="./img/gallery/gallery_8.jpg"
+            alt="A group of brightly clothed woman stand, sit or squat against a white wall. They are relaxed and have taken up their own stance."
+          />
           <!-- <figcaption>Caption</figcaption> -->
         </figure>
         <figure class="gallery-item">
-          <img src="./img/gallery/gallery_9.jpg" alt="Photo of food" />
+          <img
+            src="./img/gallery/gallery_9.jpg"
+            alt="Three woman sitting on the edge of a tulip field. They are laughing while leaning into each other."
+          />
           <!-- <figcaption>Caption</figcaption> -->
         </figure>
         <figure class="gallery-item">
-          <img src="./img/gallery/gallery_10.jpg" alt="Photo of food" />
+          <img
+            src="./img/gallery/gallery_10.jpg"
+            alt="A man lies face down on a tree branch. His legs and arms hand down either side of the branch. He has a dark baseball cap on. His face is obscured becuase he has his head on the branch and he is facing down. "
+          />
           <!-- <figcaption>Caption</figcaption> -->
         </figure>
         <figure class="gallery-item">
-          <img src="./img/gallery/gallery_11.jpg" alt="Photo of food" />
+          <img
+            src="./img/gallery/gallery_11.jpg"
+            alt="A group of people sit round a fire bowl. They are sitting on deck chairs or are squatting. They have formed a circle round the fire bowl. The flames flicker up from the fire bowl. They are dressed for the cold night. It is near the end of the day. "
+          />
           <!-- <figcaption>Caption</figcaption> -->
         </figure>
         <figure class="gallery-item">
-          <img src="./img/gallery/gallery_12.jpg" alt="Photo of food" />
+          <img
+            src="./img/gallery/gallery_12.jpg"
+            alt="A man wearing a baseball cap holds a lit lamp above his his face. The light from the lamp reflects an outline of his face. The background is a gradient of light, dark in the left bottom corner and gradually getting to a medium gray at the middle top. The impression is of man looking for something."
+          />
           <!-- <figcaption>Caption</figcaption> -->
         </figure>
       </div>
